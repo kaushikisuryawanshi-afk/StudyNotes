@@ -1,83 +1,59 @@
-StudyNotes
-Description
+# 📚 StudyNotes
 
-StudyNotes is a simple full-stack note-taking web application developed using React, Node.js and Express. Users can create and delete notes through a clean responsive interface.
+StudyNotes is a full-stack note-taking web application designed to help students
+create, manage, and organize their study notes through a simple and responsive
+interface.
 
-Features
-Add Notes
-Delete Notes
-Responsive Design
-Character Counter
-Date and Time
-Input Validation
-Tech Stack
+## 🌐 Live Demo
 
-Frontend
+https://study-notes-delta-six.vercel.app/
 
-React
-CSS
+## 💻 Source Code
 
-Backend
+https://github.com/kaushikisuryawanshi-afk/StudyNotes
 
-Node.js
-Express.js
+## ✨ Features
 
-Installation
+- 📝 Add study notes
+- 🗑️ Delete notes
+- 🔢 Character counter
+- 📅 Date and time input
+- ✅ Input validation
+- 📱 Responsive user interface
+- ⚡ React-based frontend
+- 🔗 Node.js and Express.js backend
 
-Clone repository
+## 🛠️ Tech Stack
 
-git clone 
+### Frontend
+- React.js
+- CSS
+- Vite
 
-Install frontend
+### Backend
+- Node.js
+- Express.js
 
-cd client
+### Development Tools
+- Git
+- GitHub
+- VS Code
+- Vercel
 
-npm install
+## 🏗️ Project Structure
 
-Install backend
-
-cd ../server
-
-npm install
-
-Run backend
-
-npm run dev
-
-Run frontend
-
-cd ../client
-
-npm run dev
-Folder Structure
-StudyNotes
-
+```text
+StudyNotes/
 │
-
-├── client
-
-│ ├── src
-
-│ ├── public
-
-│ └── package.json
-
+├── client/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── vite.config.js
 │
-
-├── server
-
-│ ├── server.js
-
-│ └── package.json
-
+├── server/
+│   ├── server.js
+│   ├── package.json
+│   └── .env
 │
-
 └── README.md
-Future Improvements
-Edit Notes
-Search Notes
-MongoDB Database
-User Authentication
-Developer
-
-Kaushiki Suryawanshi
